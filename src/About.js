@@ -19,9 +19,9 @@ function About() {
         <div className="footer">
         <hr/>
             <div className="footer-item">
-                <a href=""><i class="fa fa-instagram  foter-url fa-3x"  aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-facebook  foter-url fa-3x" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-linkedin  foter-url fa-3x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram  foter-url fa-3x"  aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook  foter-url fa-3x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin  foter-url fa-3x" aria-hidden="true"></i></a>
             </div>
             <div className="production">
                 <p><i class="fa fa-product-hunt" aria-hidden="true fa-2x"></i>  2021 production Blaze</p>

@@ -4,6 +4,7 @@ import Nav from './Nav';
 import About from './About';
 import Shop from './Shop';
 import Item from './itemDetail';
+import Photo from './img/photo.svg';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
                     <button className=''>Get Started &#x2605;</button>
                 </div>
                 <div className="img">
-                    <img src="/images/photo.svg" alt=""/>
+                    <img src={Photo} alt=""/>
                 </div>
            </div>
            <hr/>
@@ -43,7 +44,7 @@ function App() {
         <div className="App">
           <Nav />
           <Switch>
-            <Route path='/' exact component={Home} />
+            <Route path='/The-Thrift' exact component={Home} />
             <Route path='/about' component={About} />
             <Route path='/shop' exact component={Shop} />
             <Route path='/shop/:id' component={Item} />

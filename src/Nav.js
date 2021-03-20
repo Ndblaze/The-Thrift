@@ -13,7 +13,7 @@ function Nav() {
       <nav>
           <h1>TheThrift <i class="fa fa-paper-plane-o" aria-hidden="true"></i></h1>
           <ul className='nav-links'>
-              <Link style={navStyle} to='/'>
+              <Link style={navStyle} to='/The-Thrift'>
                 <button>Home</button>
               </Link>
               <Link style={navStyle} to='/shop'>
