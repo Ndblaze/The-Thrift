@@ -1,0 +1,228 @@
+.App {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-size: cover;
+  height: 100vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  color: white;
+  border-bottom: 3px solid #fff;
+  border-radius: 20px;
+}
+
+.nav-links{
+   width: 40%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-links button{
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  padding: 4px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid chartreuse;
+  
+}
+
+.nav-links button:hover{
+  width: 85px;
+  transition: 0.2s;
+}
+
+
+/* shops component*/
+.shops{
+   height: max-content;
+   margin: auto 80px ;
+   
+}
+
+.shops h1{
+  text-align: center;
+  color: #96e6a1;
+  text-decoration: underline;
+}
+
+.items{
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  justify-content: space-around;
+  border: 2px solid#96e6a1;
+  border-radius: 20px;
+  box-shadow: #d4fc79;
+  margin: 15px;
+}
+
+.item h2{
+  font-size: 30px;
+}
+
+.items img{
+  width: 200px;
+}
+
+.items p{
+  font-size: 16px;
+  color: #96e6a1;
+}
+
+/* home css */
+.home{
+  margin: 4% 10% ;
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contain{
+  flex-basis: 50%;
+}
+
+.contain h1{
+  font-size: 80px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.contain h1:hover{
+  font-size: 85px;
+  transition: 0.2s;
+}
+
+.contain p{
+  max-width: 500px;
+  font-size: 17px;
+  line-height: 40px;
+  margin-left: 10px;
+  color:  #fff;
+}
+
+.line-1{
+    width: 10px;
+    height: 7px;
+    background:  #fff;
+    display: inline-block;
+}
+
+.line-2{
+    width: 30%;
+    height: 2px;
+    background:  #fff;
+    display: inline-block;
+}
+
+.line-3{
+    width: 50%;
+    height: 2px;
+    background: #fff;
+    display: inline-block;
+}
+
+.contain button{
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 3%;
+  height: 50px;
+  border-radius: 10px;
+  border: 4px solid #fff; 
+  cursor: pointer;
+}
+
+.contain button:hover{
+  padding: 10px;
+  transition: 0.2s;
+}
+ 
+
+.img{
+  flex-basis: 50%;
+  justify-content: center;
+}
+
+.img img{
+  width: 80%;
+}
+.img img:hover{
+  width: 85%;
+  transition: 0.2s;
+}
+
+
+/* About page */
+
+.about{
+  
+  margin: 4% 10% ;
+  text-align: center; 
+}
+
+.about h1{
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.about p{
+  font: 60px;
+  line-height: 40px;
+  color: #fff;
+}
+
+hr{
+  margin-top: 30px;
+  border: 1px solid #fff;
+}
+
+.about .footer{
+  margin-top: 130px;
+}
+/* footer */
+
+.footer{
+  text-align: center;
+  bottom: 0;
+ justify-content: center;
+}
+
+.footer-item{
+  display: flex;
+  justify-content: center;
+}
+.footer-item a{
+  margin-left: 80px;
+  color: #fff;
+}
+
+.footer-item a:hover{
+  padding: 2px;
+  transition: 0.2s;
+}
+
+.production{
+  margin-left: 100px;
+  color: #fff;
+}
+
+
+
+
