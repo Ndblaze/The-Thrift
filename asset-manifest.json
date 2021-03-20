@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/The-Thrift/static/css/main.3619005f.chunk.css",
-    "main.js": "/The-Thrift/static/js/main.e75bb73f.chunk.js",
-    "main.js.map": "/The-Thrift/static/js/main.e75bb73f.chunk.js.map",
+    "main.js": "/The-Thrift/static/js/main.a02284c5.chunk.js",
+    "main.js.map": "/The-Thrift/static/js/main.a02284c5.chunk.js.map",
     "runtime-main.js": "/The-Thrift/static/js/runtime-main.f97f2350.js",
     "runtime-main.js.map": "/The-Thrift/static/js/runtime-main.f97f2350.js.map",
     "static/js/2.928d296c.chunk.js": "/The-Thrift/static/js/2.928d296c.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.b936617c.chunk.js.map": "/The-Thrift/static/js/3.b936617c.chunk.js.map",
     "index.html": "/The-Thrift/index.html",
     "static/css/main.3619005f.chunk.css.map": "/The-Thrift/static/css/main.3619005f.chunk.css.map",
-    "static/js/2.928d296c.chunk.js.LICENSE.txt": "/The-Thrift/static/js/2.928d296c.chunk.js.LICENSE.txt"
+    "static/js/2.928d296c.chunk.js.LICENSE.txt": "/The-Thrift/static/js/2.928d296c.chunk.js.LICENSE.txt",
+    "static/media/photo.69a2c030.svg": "/The-Thrift/static/media/photo.69a2c030.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f97f2350.js",
     "static/js/2.928d296c.chunk.js",
     "static/css/main.3619005f.chunk.css",
-    "static/js/main.e75bb73f.chunk.js"
+    "static/js/main.a02284c5.chunk.js"
   ]
 }
